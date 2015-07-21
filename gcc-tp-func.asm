@@ -1,0 +1,7 @@
+	BITS 64
+	SECTION .text
+	global L3
+L3:
+	MOV EAX, ECX
+	ADD EAX, EDX
+	RET
