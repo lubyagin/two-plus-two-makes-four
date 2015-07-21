@@ -3,3 +3,5 @@
 @C:\TDM-GCC-64\bin\gcc.exe gcc-tp.obj gcc-tp-func.obj -o gcc-tp.exe
 @C:\TDM-GCC-64\bin\strip.exe --strip-all gcc-tp.exe
 @D:\UTILS\upx.exe -q -9 gcc-tp.exe
+
+@C:\TDM-GCC-64\bin\gcc.exe -S -c -o gcc-tp.S gcc-tp.c
